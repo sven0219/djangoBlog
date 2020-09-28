@@ -13,4 +13,4 @@ class ArticlePost(models.Model):
         ordering = ('-created',)
 
     def __str__(self):
-        return self.titleco 
+        return self.title
