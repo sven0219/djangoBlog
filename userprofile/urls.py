@@ -7,5 +7,7 @@ urlpatterns = [
     # 用户登录
     path('login/', views.user_login, name='login'),
     # 用户登出
-    path('logout/',views.user_logout,name='logout')
+    path('logout/',views.user_logout,name='logout'),
+    # 注册
+    path('register/', views.user_register, name='register'),
 ]
